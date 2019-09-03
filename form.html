@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Данные пользователя</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="userfields" class="form" action="POST">
+        <div class="input-group">
+          <label for="firstname">Имя:</label>
+          <input class="input active" id="firstname" type="text" placeholder="Имя" />
+        </div>
+
+        <div class="input-group">
+          <label for="middlename">Отчество:</label>
+          <input class="input" id="middlename" type="text" placeholder="Отчество" />
+        </div>
+
+        <div class="input-group">
+          <label for="lastname">Фамилия:</label>
+          <input class="input" id="lastname" type="text" placeholder="Фамилия" />
+        </div>
+
+        <div class="input-group">
+          <label for="phone">Телефон:</label>
+          <input class="input" id="phone" type="text" placeholder="Телефон" />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input class="input" id="email" type="text" placeholder="Email" />
+        </div>
+      </form>
+      <div class="links">
+        <a id="cancelEdit" class="btn hidden" href="#">Отмена</a>
+        <a id="edit" class="btn hidden" href="#">Редактировать</a>
+        <a class="btn hidden" href="form.html">Новая Форма</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
